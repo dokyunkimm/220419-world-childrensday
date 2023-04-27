@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body * {font-family: 'Noto Serif KR', serif; letter-spacing:-0.06em; word-break: keep-all; box-sizing: border-box;}
+
+/* mobile 숨김 */
+#newbirdChildrensDay .mob_news_img02 {display: none;}
+
+
+
+/* common */
+#newbirdChildrensDay .inner_1220 {
+    max-width: 1220px;
+    margin: 0 auto;
+    width: calc(100% - 30px);
+}
+#newbirdChildrensDay .inner_1200{
+    max-width: 1200px;
+    margin:0 auto;
+    width: calc(100% - 30px);
+}
+/* button */
+#newbirdChildrensDay .btn_wr {display: flex; justify-content: center;}
+
+#newbirdChildrensDay .child_btn {display: inline-flex; align-items: center; justify-content: center; padding: 0 20px; font-size: 22px; color: #fff; letter-spacing: -0.04em; border-radius: 40px; border: 3px solid #e15b0a; background: #f76710; font-family: 'NanumSquareBold';}
+#newbirdChildrensDay .child_h80 {height: 80px;}
+#newbirdChildrensDay .child_h90 {height: 90px;}
+#newbirdChildrensDay .child_h100 {height: 100px; font-size: 28px;}
+
+
+
+
+/* #childrensDay {background: url(../childrensday_bg.jpg) no-repeat top; background-size: cover;} */
+
+/* campaign section */
+#newbirdChildrensDay .campaign_section {padding: 70px 0 0; background: url(../bg01.jpg) no-repeat center top; background-size: 100% 100%;}
+#newbirdChildrensDay .video_deco_wr {position: relative; z-index: 100; height: 650px;}
+#newbirdChildrensDay .video_deco_wr::before {position: absolute; left: -210px; bottom: 60px; content: ""; display: inline-block; width: 281px; height: 301px; background: url(../deco_flower01.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .video_deco_wr::after {z-index: -1; position: absolute; right: -130px; bottom: 95px; content: ""; display: inline-block; width: 205px; height: 199px; background: url(../deco_flower02.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .campaign_video_cont {position: relative; padding: 20px; background: url(../video_bg.png) no-repeat top; background-size: 100% 100%;}
+#newbirdChildrensDay .campaign_video_cont::after {z-index: -1; position: absolute; left: 0; bottom: -72px; content: ""; width: 100%; height: 103px; background: url(../mob/video_shadow.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .campaign_video_cont > .video_wr {position: relative; width: 100%; height: 0; padding-bottom: 51.59%;}
+#newbirdChildrensDay .campaign_video_cont > .video_wr > iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+#newbirdChildrensDay .video_deco_wr .campaign_video_cont > .btn_video_close {display: none;}
+#newbirdChildrensDay .campaign_tit {margin-bottom: 10px; display: block; text-align: center;}
+#newbirdChildrensDay .campaign_tit > img {max-width: 312px; width: 100%;}
+#newbirdChildrensDay .children_tit {display: flex; justify-content: center;}
+#newbirdChildrensDay .children_tit .chldrn_tit_box {z-index: 2; position: relative; max-width: 992px; width: 100%;}
+#newbirdChildrensDay .children_tit .chldrn_tit_box::after {z-index: -1; position: absolute; top: -35px; right: -45px; content: ""; display: inline-block; width: 123px; height: 78px; background: url(../deco_heart.png) no-repeat center; background-size: contain;}
+#newbirdChildrensDay .children_tit .chldrn_tit_box > img {width: 100%}
+
+#newbirdChildrensDay .entertainer_cont {display: flex; align-items: center; margin: -23px 0 -18px 93px;}
+#newbirdChildrensDay .entertainer_img_box {max-width: 472px;}
+#newbirdChildrensDay .speech_bubble_box {padding-bottom: 20px; max-width: 375px; width: 100%;}
+#newbirdChildrensDay .speech_bubble_box > img {width: 100%;}
+/* #childrensDay .mob_speech {display: none;} */
+/* 스크롤 했을 때 fixed 클래스 붙기 */
+#newbirdChildrensDay .video_deco_wr.fixed .campaign_video_cont {position: relative; background: none; padding: 0; width: 356px; height: 200px; position: fixed; bottom: 60px; right: 60px;}
+#newbirdChildrensDay .video_deco_wr.fixed .campaign_video_cont > .btn_video_close {display: block; position: absolute; top: -50px; right: 0; width: 40px; height: 40px; background: url(../close_btn.png); background-size: 100% 100%;}
+#newbirdChildrensDay .video_deco_wr.fixed .campaign_video_cont > .video_wr {height: 100%;}
+#newbirdChildrensDay .video_deco_wr.fixed .campaign_video_cont.hide {display: none;}
+
+/* news section */
+#newbirdChildrensDay .news_section {padding: 110px 0; background: url(../bg02.jpg) no-repeat center top; background-size: 100% 100%; position: relative; z-index: 2; /* rotate 되어 있는 배경이 전체 배경에 가려져서 position 넣어둠. */}
+#newbirdChildrensDay .news_inner {padding: 0 15px;}
+#newbirdChildrensDay .news_paper_wr {position: relative; margin: 0 auto; max-width: 1262px; padding: 30px; background: url(../news_bg02.png) no-repeat top center / 100% 100%; }
+#newbirdChildrensDay .news_paper_wr::before {z-index: -1; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; display: block; width: calc(100% + 100px); height: calc(100% + 143px); background: url(../news_bg01.png) no-repeat top / cover;}
+#newbirdChildrensDay .news_paper {position: relative; padding: 40px 130px 80px; max-width: 1200px; background: url(../news_paper.png) no-repeat top right / cover;}
+#newbirdChildrensDay .news_paper::before {position: absolute; left: -80px; top: 30px; content: ""; display: inline-block; width: 115px; height: 95px; background: url(../petal01.png) no-repeat center; background-size: contain;}
+#newbirdChildrensDay .news_paper::after {position: absolute; right: -150px; bottom: 40px; content: ""; display: inline-block; width: 167px; height: 133px; background: url(../petal02.png) no-repeat center; background-size: contain;}
+#newbirdChildrensDay .news_paper > h3 {margin-bottom: 13px; font-size: 32px; color: #495658; text-align: center;}
+#newbirdChildrensDay .news_paper > .news_by {line-height: 47px; border-top: 2px solid #8e9a9c; border-bottom: 1px solid #dcdfdf; font-size: 14px; color: #8e9a9c; letter-spacing: 0;}
+#newbirdChildrensDay .news_paper > strong {display: block; padding: 22px 0; font-size: 36px; font-weight: 500; line-height: 50px; color: #495658;}
+#newbirdChildrensDay .news_txt_conts {display: flex; justify-content: space-between;}
+#newbirdChildrensDay .txt_conts_left {margin-right: 27px;}
+#newbirdChildrensDay .txt_conts_left > p {font-size: 16px; font-weight: 500; letter-spacing: -0.04em; line-height: 27px; color: #687678;}
+#newbirdChildrensDay .txt_conts_left > b {display: block; margin: 31px 0 21px; font-size: 24px; font-weight: 900; letter-spacing: -0.04em; line-height: 36px; color: #223d40;}
+#newbirdChildrensDay .txt_conts_left .bottom {display: flex;}
+#newbirdChildrensDay .txt_conts_left .bottom > .img_box {margin-right: 20px; min-width: 118px; width: 118px;}
+#newbirdChildrensDay .txt_conts_left .bottom > .img_box > img {width: 100%;}
+#newbirdChildrensDay .txt_conts_left .bottom > p {font-size: 16px; letter-spacing: -0.04em; line-height: 27px; color: #687678;}
+#newbirdChildrensDay .txt_conts_left .bottom > p > b {font-weight: 600; color: #687678;}
+#newbirdChildrensDay .txt_conts_left .bottom > p > span {display: block; color: #607d81;}
+
+#newbirdChildrensDay .txt_conts_right {}
+#newbirdChildrensDay .txt_conts_right .img_box {min-width: 250px; width: 250px;}
+#newbirdChildrensDay .txt_conts_right .img_box > img {width: 100%;}
+#newbirdChildrensDay .txt_conts_right > p {margin-top: 22px; font-size: 16px; letter-spacing: -0.04em; color: #223d40; font-family: 'NanumSquareBold'; transform: rotate(0.03deg); /* 폰트 깨짐 대응 */}
+
+#newbirdChildrensDay .news_video_cont {margin-top: 60px; display: flex; justify-content: center; }
+#newbirdChildrensDay .news_video_cont .child_btn {width: 300px;}
+
+
+/* support01 section */
+#newbirdChildrensDay .support01_section {padding: 0 0 70px; background: url(../bg03.jpg) no-repeat center top; background-size: 100% 100%;}
+#newbirdChildrensDay .support_tit_bubble {display: block; margin: 0 auto; width: 194px;}
+#newbirdChildrensDay .support_tit_bubble > img {width: 100%;}
+#newbirdChildrensDay .support_tit_bubble .sprt_tit_mob {display: none;}
+
+#newbirdChildrensDay .support_tit {margin: 8px 0 45px; text-align: center;}
+#newbirdChildrensDay .support_tit > b {font-weight: 400; text-align: center; font-family: 'KOHIBaeumOTF'; font-size: 46px; line-height: 80px;}
+#newbirdChildrensDay .support_tit > span {display: block; font-family: 'KOHIBaeumOTF'; font-size: 70px; line-height: 80px;}
+#newbirdChildrensDay .support_tit .blck_color {color: #1f1914;}
+#newbirdChildrensDay .support_tit .orng_color {color: #f37021;}
+
+#newbirdChildrensDay .picture_wr {margin: 0 auto; display: flex; justify-content: space-between; max-width: 1010px;}
+#newbirdChildrensDay .picture_wr > div {position: relative;}
+#newbirdChildrensDay .picture_wr > div::before {position: absolute; top: 52%; left: 51%; transform: translate(-50%, -50%); content: ""; width: calc(100% + 50px); height: calc(100% + 50px); background: url(../support01_img_bg.png) no-repeat top; background-size: 100% 100%;}
+#newbirdChildrensDay .picture_wr .left_img_wr::after {position: absolute; left: -100px; bottom: -75px; content: ""; display: inline-block; width: 134px; height: 189px; background: url(../deco_post.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .right_img_wr::after {position: absolute; top: 50%; left: -100px; transform: translateY(-50%); content: ""; display: inline-block; width: 122px; height: 122px; background: url(../icon_or01.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .picture_wr > div > div {position: relative; max-width: 470px; width: 100%; box-shadow: 5px 9px 50px 0px rgba(255, 149, 36, 0.15);}
+
+#newbirdChildrensDay .support01_section .btn_write {margin-top: 100px;}
+#newbirdChildrensDay .btn_write > a {position: relative; display: flex; justify-content: flex-start; align-items: center; max-width: 460px; width: 100%; border-radius: 50px; padding: 0 80px 0 50px;}
+#newbirdChildrensDay .btn_write > a .letter_icon {margin-right: 15px; display: inline-block; width: 39px; height: 25px; background: url(../icon_letter.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .btn_write > a::after {position: absolute; top: 50%; right: 25px; transform: translateY(-50%); content: ""; width: 50px; height: 50px; background: url(../btn_arr.png) no-repeat; background-size: 100% 100%;}
+
+#newbirdChildrensDay .txt_mssg {margin-top: 29px; font-size: 20px; line-height: 26px; letter-spacing: -0.04em; text-align: center; font-family: 'NanumSquare'; color: #957f6d;}
+#newbirdChildrensDay .txt_mssg .star {color: #ff9925;}
+
+/* support02 section */
+#newbirdChildrensDay .support02_section {position: relative; padding: 180px 0 130px; background: url(../bg04.jpg) no-repeat center top; background-size: 1920px 100%;}
+#newbirdChildrensDay .support02_section::before {content: ""; position: absolute; top: 10%; left: 50%; transform: translateX(-50%); display: block; max-width: 1231px; width: 100%; height: 282px; background: url(../support02_tit_deco.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .support02_section .support_tit > b {color: #124e5e;}
+#newbirdChildrensDay .support02_section .support_tit > span {color: #34879e;}
+
+#newbirdChildrensDay .insta_cont {margin: 0 auto; display: flex; justify-content: space-between; max-width: 996px;}
+#newbirdChildrensDay .insta_cont > div {position: relative;}
+#newbirdChildrensDay .insta_cont > div .img_box {max-width: 480px; width: 100%; border-radius: 32px; overflow: hidden; box-shadow: 5px 9px 50px 0px rgba(140, 182, 193, 0.15);}
+#newbirdChildrensDay .insta_cont > div .img_box > img {width: 100%;}
+
+#newbirdChildrensDay .insta_cont .right_img_wr::after {left: -82px; background: url(../icon_or02.png) no-repeat; background-size: 100% 100%;}
+
+/* introduce content */
+#newbirdChildrensDay .introduce_way_cont {max-width: 1000px; margin: 60px auto 0; width: 100%;}
+#newbirdChildrensDay .introduce_way_cont > strong {display: block; margin: 0 auto 54px; max-width: 234px; width: 100%;}
+#newbirdChildrensDay .introduce_way_cont > strong > img {width: 100%;}
+
+#newbirdChildrensDay .introduce_way_cont > ul > li {margin-bottom: 74px; position: relative; border: 2px solid #e4eaf1; background: #fff; padding: 45px 50px 30px; color: #124e5e; text-align: center;}
+#newbirdChildrensDay .introduce_way_cont > ul > li:last-child {margin-bottom: 0;}
+#newbirdChildrensDay .introduce_way_cont > ul .step01 {position: relative; border-radius: 80px;}
+#newbirdChildrensDay .introduce_way_cont > ul .step01::after {position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); content: ""; display: inline-block; width: 30px; height: 46px; background: url(../down_arr.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .introduce_way_cont > ul .step02 {border-radius: 65px;}
+#newbirdChildrensDay .introduce_way_cont > ul > li .step_badge {position: absolute; left: 50%; top: -26px; transform: translateX(-50%); padding-top: 5px; display: inline-flex; align-items: center; justify-content: center; width: 150px; height: 52px; border-radius: 26px; font-size: 18px; color: #fff; letter-spacing: 0.02em; font-family: 'KOHIBaeumOTF'; background: #34879e;}
+#newbirdChildrensDay .introduce_way_cont > ul > li > p {font-size: 22px; line-height: 30px; font-family: 'NanumSquare';}
+#newbirdChildrensDay .introduce_way_cont > ul .step01 > p {margin-bottom: 10px;}
+#newbirdChildrensDay .introduce_way_cont > ul > li > div {font-size: 18px; line-height: 25px; font-family: 'NanumSquare';}
+#newbirdChildrensDay .introduce_way_cont > ul > li > div > span {display: block; font-size: 16px; line-height: 25px; font-family: 'NanumSquare'; transform: rotate(0.03deg); /* 폰트 깨짐 대응 */ }
+#newbirdChildrensDay .introduce_way_cont > ul > li b {font-family: 'NanumSquareBold';}
+#newbirdChildrensDay .introduce_way_cont > ul > li > div {}
+#newbirdChildrensDay .introduce_way_cont > ul > li .orng_color {color: #f17c00;}
+#newbirdChildrensDay .introduce_way_cont .btn_wr {margin-top: 60px;}
+#newbirdChildrensDay .introduce_way_cont .btn_wr > a {width: 300px; margin-right: 20px;}
+#newbirdChildrensDay .introduce_way_cont .btn_wr > a:last-child {margin-right: 0;}
+
+/* support goods section */
+#newbirdChildrensDay .support_goods_section {padding: 0 0 120px; background: url(../bg05.jpg) no-repeat center top; background-size: 100% 100%;}
+#newbirdChildrensDay .goods_cont .inner_1200 {position: relative; box-shadow: 5px 9px 50px 0px rgba(189, 193, 194, 0.15); }
+#newbirdChildrensDay .goods_cont .inner_1200::before {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; display: block; width: calc(100% + 152px); height: calc(100% + 135px); background: url(../envelope_bg.png) no-repeat top; background-size: 100% 100%;}
+#newbirdChildrensDay .goods_cont .inner_1200::after {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); content: ""; display: block; width: calc(100% + 367px); max-height: 1287px; height: 100%; background: url(../envelope.png) no-repeat top; background-size: 100% 100%;}
+/* .top_cont_wr::after {z-index: -1; position: absolute; left: 0; bottom: 0; content: ""; display: block; width: 100%; height: 108px; background: url(../line_bg.png) repeat-x;} */
+
+#newbirdChildrensDay .top_cont01 {display: flex; justify-content: space-between;}
+#newbirdChildrensDay .top_cont01 > div {text-align: center; width: 45%;}
+#newbirdChildrensDay .top_cont01 > div .support_tit_badge {display: flex; align-items: center; justify-content: center; margin-bottom: 20px;}
+#newbirdChildrensDay .top_cont01 > div .support_tit_badge > span {display: inline-flex; align-items: center; justify-content: center; padding-top: 5px; max-width: 160px; width: 100%; height: 52px; border-radius: 26px; background: #14bc87; font-size: 20px; color: #fff; font-family: 'KOHIBaeumOTF';}
+#newbirdChildrensDay .top_cont01 > div > b {display: block; font-size: 30px; color: #222222; line-height: 40px; font-family: 'KOHIBaeumOTF'; font-weight: 400;}
+#newbirdChildrensDay .top_cont01 > div > p {margin: 10px 0 40px; font-size: 20px; color: #666666; line-height: 34px; font-family: 'NanumSquare'; transform: rotate(0.03deg); /* 폰트 깨짐 대응 */}
+#newbirdChildrensDay .top_cont01 > div > p > b {font-family: 'NanumSquareBold';}
+#newbirdChildrensDay .top_cont01 > div .kakao_goods {position: relative; margin: 0 auto; max-width: 280px; width: 100%;}
+#newbirdChildrensDay .top_cont01 > div .kakao_goods > img {width: 100%;}
+#newbirdChildrensDay .top_cont01 > div .kakao_goods > s {position: absolute; top: -10px; left: -22px; display: inline-block; width: 102px; height: 102px; background-repeat: no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .top_cont01 > div .kakao_goods .img_count01 {background-image: url(../img_count_180.png);}
+#newbirdChildrensDay .top_cont01 > div .kakao_goods .img_count02 {background-image: url(../img_count_120.png);}
+
+#newbirdChildrensDay .top_cont01 > div .kakao_goods > .kakao_goods_mob {display: none;}
+
+#newbirdChildrensDay .top_cont01 .btn_write {margin-top: 20px;}
+#newbirdChildrensDay .top_cont01 .btn_write > a {max-width: 350px; padding: 0 60px 0 30px;}
+#newbirdChildrensDay .top_cont01 .btn_write > a .letter_icon {width: 31px; height: 20px;}
+#newbirdChildrensDay .top_cont01 .btn_write > a::after {right: 15px; width: 38px; height: 38px;}
+
+#newbirdChildrensDay .top_cont_wr {z-index: 1; position: relative; padding: 100px 100px 56px; background: url(../goods_cont_top_bg.jpg) no-repeat center; background-size: cover;}
+#newbirdChildrensDay .top_cont02 {margin-top: 40px; padding: 35px 30px 33px 100px; border: 2px solid #e4eaf1; border-radius: 30px; background: #fff;}
+#newbirdChildrensDay .top_cont02 dl {display: flex; margin-bottom: 15px;}
+#newbirdChildrensDay .top_cont02 dl:last-child {margin-bottom: 0;}
+#newbirdChildrensDay .top_cont02 dl > dt {padding-top: 5px; margin-right: 30px; display: inline-flex; align-items: center; justify-content: center; width: 130px; height: 46px; border-radius: 23px; background: #14bc87; font-size: 18px; color: #fff; font-family: 'NanumSquareBold';}
+#newbirdChildrensDay .top_cont02 dl > dd {font-size: 20px; line-height: 35px; color: #666; font-family: 'NanumSquareBold';}
+
+#newbirdChildrensDay .top_cont02 .date {align-items: center;}
+
+#newbirdChildrensDay .top_cont02 .announce > dd > p {position: relative; display: block; padding-left: 15px; font-family: 'NanumSquareBold';}
+#newbirdChildrensDay .top_cont02 .announce > dd > p::before {position: absolute; top: 13px; left: 0; content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #14bc87;}
+#newbirdChildrensDay .top_cont02 .announce > dd > p > span {display: block; font-size: 18px; line-height: 30px; color: #666; font-family: 'NanumSquareLight';}
+
+#newbirdChildrensDay .bottom_cont {padding: 88px 0 60px; background: url(../goods_cont_bottom_bg.jpg) no-repeat center; background-size: cover; position: relative; z-index: 2;}/* 뒤에 편지지 보다 높게 보이기 위해 relative 넣어둠. */
+#newbirdChildrensDay .bottom_cont > p {display: flex; justify-content: center; margin-bottom: 5px;}
+#newbirdChildrensDay .bottom_cont > p > strong {position: relative; display: block; font-size: 30px; line-height: 40px; font-family: 'KOHIBaeumOTF';}
+#newbirdChildrensDay .bottom_cont > p > strong::before {content: ""; position: absolute; top: -65px; right: 23%; display: inline-block; width: 110px; height: 54px; background: url(../win_percent.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .bottom_cont > p > strong > span {font-family: 'KOHIBaeumOTF';}
+#newbirdChildrensDay .bottom_cont > p > strong .tomato_color {color: #f66a5a;}
+#newbirdChildrensDay .bottom_cont > p > strong .green_color {color: #14bc87;}
+#newbirdChildrensDay .bottom_cont > p > strong > i {font-family: 'KOHIBaeumOTF';}
+
+#newbirdChildrensDay .bottom_cont > div {display: flex; align-items: center; justify-content: center;}
+#newbirdChildrensDay .bottom_cont > div ul > li {position: relative; padding-left: 20px; font-size: 18px; line-height: 32px; color: #666; font-family: 'NanumSquare';}
+#newbirdChildrensDay .bottom_cont > div ul > li::before {position: absolute; top: 10px; left: 0; content: ""; display: inline-block; width: 6px; height: 6px; background: #666; border-radius: 50%;}
+#newbirdChildrensDay .presnet_deco {max-width: 233px; width: 100%; margin-left: 36px;}
+#newbirdChildrensDay .presnet_deco > img {width: 100%;}
+
+/* 참여 현황 section */
+#newbirdChildrensDay .prtcpt_tit {display: flex; justify-content: center; font-size: 54px; font-family: 'KOHIBaeumOTF';}
+#newbirdChildrensDay .prtcpt_tit > span {color: #f37021; font-family: 'KOHIBaeumOTF';}
+#newbirdChildrensDay .prtcpt_tit > s {margin-right: 24px; display: inline-block; width: 51px; height: 58px; background: url(../participation_tit_icon.png) no-repeat; background-size: 100% 100%;}
+#newbirdChildrensDay .prtcpt_cont_list > ul {display: grid; grid-template-columns: repeat(3, 1fr); row-gap: 30px; column-gap: 30px;}
+#newbirdChildrensDay .prtcpt_cont_list > ul > li {}
+
+/* share section */
+#newbirdChildrensDay .share_section {padding: 92px 0 100px; display: flex; justify-content: center; background: linear-gradient(to right, #ffaa25, #ff792e);}
+#newbirdChildrensDay .share_section > .inner_1200 {}
+#newbirdChildrensDay .share_section > .inner_1200 > p {font-size: 30px; line-height: 46px; text-align: center; color: #fff; font-family: 'NanumSquareBold';}
+#newbirdChildrensDay .share_section > .inner_1200 > div {margin-top: 52px; display: flex; justify-content: center;}
+#newbirdChildrensDay .share_section > .inner_1200 > div > a {display: inline-block; width: 100px; height: 100px; background-repeat: no-repeat; background-size: 100% 100%; margin-right: 20px;}
+#newbirdChildrensDay .share_section > .inner_1200 > div > .kakao {background-image: url(../kakao_icon.png);}
+#newbirdChildrensDay .share_section > .inner_1200 > div > .share {background-image: url(../share_icon.png); margin-right: 0;}
+#newbirdChildrensDay .participation_section .btn_wr {margin-top: 80px;}
+#newbirdChildrensDay .participation_section .btn_wr .child_btn {width: 420px; border-radius: 45px;}
+
+
+
+
+
+
